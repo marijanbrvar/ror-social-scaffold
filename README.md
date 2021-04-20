@@ -37,6 +37,11 @@ Setup database with:
    rails db:migrate
 ```
 
+### Testing
+Run following command for unit and integration tests
+
+'rspec'
+
 ### Github Actions
 
 To make sure the linters' checks using Github Actions work properly, you should follow the next steps:
