@@ -10,6 +10,7 @@ RSpec.describe Comment, type: :model do
     body = (0..200).map { ('a'..'z').to_a[rand(26)] }.join
 
     it { should_not allow_value(body).for(:content) }
+    it { should_not allow_value('').for(:content) }
   end
   describe 'Comment' do
     it { should belong_to :user }
