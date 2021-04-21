@@ -1,4 +1,5 @@
 class UsersController < ApplicationController
+  include UserHelper
   before_action :authenticate_user!
 
   def index

@@ -1,16 +1,16 @@
-# Scaffold for social media app with Ruby on Rails
+# Stay In Touch
 
-> This repo includes intial code for social media app with basic styling. Its purpose is to be a starting point for Microverse students.
+![screenshot](./app_screenshot.png)
+
+> Stay In Touch is a social media app, built with Ruby on Rails. We used this repo with intial code for the app. Initial code was provided by Microverse.
 
 ## Built With
-
-- Ruby v2.7.0
-- Ruby on Rails v5.2.4
+- Ruby v2.7.2
+- Ruby on Rails v6.1.3
 
 ## Live Demo
 
 TBA
-
 
 ## Getting Started
 
@@ -18,9 +18,9 @@ To get a local copy up and running follow these simple example steps.
 
 ### Prerequisites
 
-Ruby: 2.6.3
-Rails: 5.2.3
-Postgres: >=9.5
+Ruby: 2.7.2
+Rails: 6.1.3
+Postgres: >=13.2
 
 ### Setup
 
@@ -36,6 +36,11 @@ Setup database with:
    rails db:create
    rails db:migrate
 ```
+
+### Testing
+Run following command for unit and integration tests
+
+'rspec'
 
 ### Github Actions
 
@@ -69,25 +74,35 @@ Open `http://localhost:3000/` in your browser.
 
 TBA
 
-## Authors
+## AUTHOR
 
-TBA
+**ZIL NORVILIS**
+
+- Github: [![](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/zilton7)
+- Linkedin: [![](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/zil-norvilis/)
+- Twitter: [![](https://img.shields.io/badge/Twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white)](https://twitter.com/devnor7)
+
+**MARIJAN BRVAR**
+
+- GitHub: [@githubhandle](https://github.com/marijanbrvar)
+- Twitter: [@twitterhandle](https://twitter.com/marijanbrvar)
+- LinkedIn: [LinkedIn](https://linkedin.com/in/marijanbrvar)
+
+![Marijan's GitHub stats](https://github-readme-stats.vercel.app/api?username=marijanbrvar&count_private=true&theme=dark&show_icons=true)
+
 
 ## 🤝 Contributing
 
-Contributions, issues and feature requests are welcome!
+Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](issues/).
+Feel free to check the [issues page](https://github.com/marijanbrvar/stay-in-touch/issues).
 
 ## Show your support
 
 Give a ⭐️ if you like this project!
 
-## Acknowledgments
-
-TBA
 
 ## 📝 License
 
-TBA
-
+- This project is [MIT](https://github.com/marijanbrvar/stay-in-touch/blob/development/LICENSE) licensed.
+- This project is [creativecommons](https://creativecommons.org/licenses/by-nc/4.0/) licensed.
