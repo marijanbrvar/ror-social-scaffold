@@ -13,6 +13,7 @@ class FriendshipsController < ApplicationController
     @friendship = Friendship.find(params[:id])
     @friendship.confirmed!
     @friendship_two = Friendship.new(user_id: @friendship.friend_id, friend_id: @friendship.user_id, status: 1)
+    @friendship_two.save
     flash[:notice] = 'Friendship accepted'
     redirect_back(fallback_location: root_path)
   end
