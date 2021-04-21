@@ -12,7 +12,6 @@
 
 TBA
 
-
 ## Getting Started
 
 To get a local copy up and running follow these simple example steps.
@@ -37,6 +36,11 @@ Setup database with:
    rails db:create
    rails db:migrate
 ```
+
+### Testing
+Run following command for unit and integration tests
+
+'rspec'
 
 ### Github Actions
 
