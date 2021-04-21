@@ -7,6 +7,7 @@
 ## Built With
 - Ruby v2.7.2
 - Ruby on Rails v6.1.3
+- Postgres: >=13.2
 
 ## Live Demo
 
@@ -14,7 +15,20 @@
 
 ## Getting Started
 
-To get a local copy up and running follow these simple example steps.
+To get a local copy up and running, follow these simple example steps.
+1. Position yourself in a working directory, e.g.: `~/work`
+2. Run the following command  `git clone https://github.com/marijanbrvar/stay-in-touch.git && cd stay-in-touch`
+3. To install prerequisites, just run `bundle install`
+4. Now, we need to migrate the database. We assume you already install the Postgres server on your local machine
+5. To enable the database for our application, run the following commands:
+```
+   rails db:create
+   rails db:migrate
+```
+6. After all these steps are finished, you can run the application by calling `rails server`
+7. Open the application in your browser at `http://localhost:3000/` and sign up with a new user. 
+
+> How it works: you can invite your friend and theatergoer. You can try the app at the link [Stay in Touch Live Demo](https://stay-in-touch-zil.herokuapp.com)
 
 ### Prerequisites
 
@@ -22,27 +36,14 @@ Ruby: 2.7.2
 Rails: 6.1.3
 Postgres: >=13.2
 
-### Setup
 
-Instal gems with:
+### Testing with RSPEC
 
-```
-bundle install
-```
-
-Setup database with:
-
-```
-   rails db:create
-   rails db:migrate
-```
-
-### Testing
 Run following command for unit and integration tests
 
 'rspec'
 
-### Github Actions
+### Github Actions in case when you Fork repo
 
 To make sure the linters' checks using Github Actions work properly, you should follow the next steps:
 
@@ -56,23 +57,16 @@ To make sure the linters' checks using Github Actions work properly, you should 
 
 Start server with:
 
-```
-    rails server
-```
+`rails server`
 
 Open `http://localhost:3000/` in your browser.
 
 ### Run tests
 
-```
-    rpsec --format documentation
-```
+`rpsec`
 
 > Tests will be added by Microverse students. There are no tests for initial features in order to make sure that students write all tests from scratch.
 
-### Deployment
-
-TBA
 
 ## AUTHOR
 
