@@ -20,5 +20,4 @@ class User < ApplicationRecord
 
   has_many :inverse_friendships, class_name: 'Friendship', foreign_key: 'friend_id'
   has_many :friend_requests, through: :inverse_friendships
-
 end
