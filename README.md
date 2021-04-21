@@ -101,6 +101,7 @@ Feel free to check the [issues page](https://github.com/marijanbrvar/stay-in-tou
 
 Give a ⭐️ if you like this project!
 
+
 ## 📝 License
 
 - This project is [MIT](https://github.com/marijanbrvar/stay-in-touch/blob/development/LICENSE) licensed.
