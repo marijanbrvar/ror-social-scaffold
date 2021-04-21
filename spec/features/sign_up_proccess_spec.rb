@@ -1,6 +1,7 @@
+# rubocop:disable Metrics/BlockLength: Block has too many lines
 require 'rails_helper'
 
-RSpec.feature "Sign Up Processes", type: :feature do
+RSpec.feature 'Sign Up Processes', type: :feature do
   it 'Return success if new user created' do
     visit '/users/sign_up'
     within('#new_user') do
@@ -39,3 +40,4 @@ RSpec.feature "Sign Up Processes", type: :feature do
     expect(page).to have_content 'Email has already been taken'
   end
 end
+# rubocop:enable Metrics/BlockLength: Block has too many lines
